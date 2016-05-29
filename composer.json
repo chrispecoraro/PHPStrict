@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PHP7Strict\\": "src/"
+      "PHPStrict\\": "src/"
     }
   }
 }

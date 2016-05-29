@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: PHP7Strict
-        psr4_prefix: PHP7Strict
+        namespace: PHPStrict
+        psr4_prefix: PHPStrict
         src_path: src

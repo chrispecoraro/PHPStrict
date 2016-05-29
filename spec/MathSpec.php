@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\PHP7Strict;
+namespace spec\PHPStrict;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -9,7 +9,7 @@ class MathSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('PHP7Strict\Math');
+        $this->shouldHaveType('PHPStrict\Math');
     }
 
     function it_should_add_two_or_more_integers()

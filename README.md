@@ -1,12 +1,12 @@
-# PHP7Math
-PHP Class to use PHP7 strict type hinting and return types for math.
+# PHPStrict
 
+PHP Classes to use the new PHP7 strict type hinting and return types for operations such as math.
 
 Examples:
 
 ```php
 // add two or more integers
-PHP7Math::addIntegers(3, 4, 5, 34);
+PHPMath::addIntegers(3, 4, 5, 34);
 ```
 
 ```php
@@ -32,4 +32,14 @@ PHP7Math::multiplyIntegers(2, 4);
 ```php
 // multiply two floats
 PHP7Math::multiplyFloats(2.5, 2.5);
+```
+Usage:
+
+```php
+include ('./vendor/autoload.php');
+use PHPStrict\Math as StrictMath;
+
+StrictMath::addIntegers(3, 4, 5, 34); // correct
+StrictMath::addFloats(3, 4.5, 52); //throws Exception
+
 ```
