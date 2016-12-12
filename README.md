@@ -10,7 +10,7 @@ PHPStrict\Math::addIntegers(3, 4, 5, 34);
 ```
 
 ```php
-// add two or more integers
+// add two or more floats
 PHPStrict\Math::addFloats(30.5, 30.1);
 ```
 
