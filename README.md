@@ -40,7 +40,7 @@ PHPStrict\Math::divideFloats(10.0, 2.0);
 ```
 
 ```php
-// multiply two floats (Could return either int or float)
+// divide two floats (Could return either int or float)
 PHPStrict\Math::divideIntegers(10, 2);
 ```
 
