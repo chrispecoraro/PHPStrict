@@ -44,8 +44,8 @@ class Math
     }
 
     /**
-     * @param $float1
-     * @param $float2
+     * @param float $float1
+     * @param float $float2
      * @return float
      * @throws \Exception
      */
@@ -76,8 +76,8 @@ class Math
     }
 
     /**
-     * @param $float1
-     * @param $float2
+     * @param float $float1
+     * @param float $float2
      * @return float
      * @throws \Exception
      */
@@ -85,6 +85,28 @@ class Math
     {
         self::validateFloatParameters([$float1, $float2]);
         return self::multiplyValidatedFloats($float1, $float2);
+    }
+
+    /**
+     * @param float $float1
+     * @param float $float2
+     * @return float
+     * @throws \Exception
+     */
+    public static function divideFloats($float1, $float2): float
+    {
+        self::validateFloatParameters([$float1, $float2]);
+        return $float1 / $float2;
+    }
+    /**
+     * @param int $integer1
+     * @param int $integer2
+     * @return float|int
+     * @throws \Exception
+     */
+    public static function divideIntegers(int $integer1, int $integer2)
+    {
+        return $integer1 / $integer2;
     }
 
     /**

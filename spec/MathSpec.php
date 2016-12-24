@@ -42,4 +42,14 @@ class MathSpec extends ObjectBehavior
         $this->multiplyFloats(5.0, 2.5)->shouldBe(12.5);
     }
 
+    function it_should_divide_two_floats()
+    {
+         $this->divideFloats(10.0, 2.0)->shouldBe(5.0);
+    }
+
+    function it_should_divide_two_integers()
+    {
+        $this->divideIntegers(10, 2)->shouldBe(5);
+    }
+
 }
