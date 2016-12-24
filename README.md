@@ -33,6 +33,20 @@ PHPStrict\Math::multiplyIntegers(2, 4);
 // multiply two floats
 PHPStrict\Math::multiplyFloats(2.5, 2.5);
 ```
+
+```php
+// divide two floats
+PHPStrict\Math::divideFloats(10.0, 2.0);
+```
+
+```php
+// multiply two floats (Could return either int or float)
+PHPStrict\Math::divideIntegers(10, 2);
+```
+
+
+
+
 Usage:
 
 ```php
